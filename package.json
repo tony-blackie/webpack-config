@@ -4,7 +4,8 @@
   "description": "Basic webpack config",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "webpack"
   },
   "author": "",
   "license": "ISC",
