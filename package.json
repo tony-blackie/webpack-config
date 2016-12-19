@@ -1,0 +1,14 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "Basic webpack config",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
