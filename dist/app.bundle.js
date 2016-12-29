@@ -42,9 +42,18 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var string = __webpack_require__(1);
+	alert('string');
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	alert('Webpack works!');
+	var string = 'some string';
+
+	module.exports = string;
 
 /***/ }
 /******/ ]);
