@@ -1,2 +1,2 @@
 var string = require('./string.js');
-alert('string');
+alert(string);

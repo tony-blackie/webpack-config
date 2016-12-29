@@ -45,7 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var string = __webpack_require__(1);
-	alert('string');
+	alert(string);
 
 /***/ },
 /* 1 */
