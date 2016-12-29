@@ -46,8 +46,13 @@
 
 	'use strict';
 
-	var string = __webpack_require__(1);
-	alert(string);
+	var _string = __webpack_require__(1);
+
+	var _string2 = _interopRequireDefault(_string);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	alert(_string2.default);
 
 /***/ },
 /* 1 */
@@ -55,9 +60,12 @@
 
 	'use strict';
 
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 	var string = 'some string';
 
-	module.exports = string;
+	exports.default = string;
 
 /***/ }
 /******/ ]);

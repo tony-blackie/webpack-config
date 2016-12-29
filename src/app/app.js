@@ -1,2 +1,2 @@
-var string = require('./string.js');
+import string from './string.js';
 alert(string);
