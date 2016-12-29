@@ -1,1 +1,2 @@
-alert('about!');
+var about = 'about something';
+alert(`${about}`);

@@ -44,7 +44,10 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	alert('about!');
+	'use strict';
+
+	var about = 'about something';
+	alert('' + about);
 
 /***/ }
 /******/ ]);

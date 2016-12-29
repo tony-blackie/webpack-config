@@ -44,12 +44,16 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var string = __webpack_require__(1);
 	alert(string);
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
+
+	'use strict';
 
 	var string = 'some string';
 
