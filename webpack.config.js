@@ -28,7 +28,9 @@ module.exports = {
     plugins: [
         new htmlWebpackPlugin(
             {
-                template: path.join(__dirname, 'src', 'index.html')
+                template: path.join(__dirname, 'src', 'index.html'),
+                inject: 'body', //this is default, but can be injected elsewhere
+                hash: true, //add random hash to every bundle on rebuild
             }
         )
     ]
