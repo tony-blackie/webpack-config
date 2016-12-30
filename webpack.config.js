@@ -1,4 +1,5 @@
 var path = require('path');
+var htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     context: path.join(__dirname, 'src'),
@@ -23,5 +24,12 @@ module.exports = {
         contentBase: path.join(__dirname, 'dist'),
         inline: true,    // turn off default running inside the iframe
         stats: 'errors-only' //remove built assets from console output
-    }
+    },
+    plugins: [
+        new htmlWebpackPlugin(
+            {
+                template: path.join(__dirname, 'src', 'index.html')
+            }
+        )
+    ]
 };
