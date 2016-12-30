@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "build": "node_modules/.bin/webpack",
-    "start": "node_modules/.bin/webpack --watch"
+    "start": "node_modules/.bin/webpack-dev-server"
   },
   "author": "",
   "license": "ISC",

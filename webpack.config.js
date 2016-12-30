@@ -20,6 +20,8 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist')
+        contentBase: path.join(__dirname, 'dist'),
+        inline: true,    // turn off default running inside the iframe
+        stats: 'errors-only' //remove built assets from console output
     }
 };
