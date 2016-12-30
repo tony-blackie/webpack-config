@@ -1,2 +1,2 @@
-var about = 'about something';
+var about = 'about page';
 alert(`${about}`);

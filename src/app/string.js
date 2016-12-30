@@ -1,3 +1,3 @@
-var string = 'some string';
+var string = 'app page';
 
 export default string;

@@ -31,6 +31,18 @@ module.exports = {
                 template: path.join(__dirname, 'src', 'index.html'),
                 inject: 'body', //this is default, but can be injected elsewhere
                 hash: true, //add random hash to every bundle on rebuild
+                filename: 'index.html',
+                chunks: ['app']
+            }
+        ),
+
+        new htmlWebpackPlugin(
+            {
+                template: path.join(__dirname, 'src', 'index.html'),
+                inject: 'body',
+                hash: true,
+                filename: 'about.html',
+                chunks: ['about']
             }
         )
     ]
