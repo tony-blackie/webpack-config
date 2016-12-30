@@ -18,5 +18,8 @@ module.exports = {
                 include: path.join(__dirname, 'src')
             }
         ]
+    },
+    devServer: {
+        contentBase: path.join(__dirname, 'dist')
     }
 };
